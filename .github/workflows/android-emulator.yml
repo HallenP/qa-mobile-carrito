@@ -23,7 +23,7 @@ jobs:
       - name: Install system deps (incluye wkhtmltopdf)
         run: |
           sudo apt-get update
-          sudo apt-get install -y openjdk-11-jdk wget unzip ca-certificates libnss3 libgconf-2-4 xvfb wkhtmltopdf
+          sudo apt-get install -y openjdk-11-jdk wget unzip ca-certificates libnss3 xvfb wkhtmltopdf
 
       - name: Install npm deps
         run: npm ci
