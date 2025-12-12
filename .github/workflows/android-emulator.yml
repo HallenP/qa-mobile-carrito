@@ -40,6 +40,7 @@ jobs:
           target: default
           arch: x86_64
           emulator-options: -no-window -no-audio -no-boot-anim -gpu swiftshader_indirect
+          script: echo "Emulator started"
 
       - name: Wait for device and unlock
         run: |
